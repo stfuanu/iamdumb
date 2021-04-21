@@ -17,4 +17,6 @@ fdisk -l /dev/vda
 
 gdisk -l /dev/vda
 
-echo "some text" >| existing_file #overwrite destination exists or not doesn't matter
+echo "some text" >| existing_file
+
+//overwrite destination exists or not doesn't matter
