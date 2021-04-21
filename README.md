@@ -17,6 +17,4 @@ fdisk -l /dev/vda
 
 gdisk -l /dev/vda
 
-growpart /dev/vda 1
-
-sudo shutdown -h now
+echo "some text" >| existing_file #overwrite destination exists or not doesn't matter
