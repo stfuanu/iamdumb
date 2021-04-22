@@ -20,3 +20,5 @@ gdisk -l /dev/vda
 echo "some shit here" >| existornot_will_be_overriden_file.txt
 
 apt install silversearcher-ag
+
+https://github.com/github/linguist/blob/master/lib/linguist/languages.yml
