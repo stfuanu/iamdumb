@@ -28,3 +28,10 @@ cat commands.txt | bash
 sudo -s <foo.txt
 
 nohup --help
+
+```console
+root@FjypPU9EfdoF:~# echo "Today is $date"
+Today is
+root@FjypPU9EfdoF:~# echo "Today is $(date)"
+Today is Sat Apr 24 16:43:24 UTC 2021
+```
