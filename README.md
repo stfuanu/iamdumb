@@ -27,3 +27,4 @@ cat commands.txt | bash
 
 sudo -s <foo.txt
 
+nohup --help
