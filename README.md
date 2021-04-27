@@ -37,3 +37,5 @@ Today is Sat Apr 24 16:43:24 UTC 2021
 ```
 
 ctrl+alt+,
+
+pv -t
