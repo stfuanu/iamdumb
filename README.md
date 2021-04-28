@@ -14,11 +14,11 @@ watch cat <filename>/*
 
 df -Th /dev/vda1
 
-fdisk -l /dev/vda
 
 gdisk -l /dev/vda
 
 echo "some shit here" >| existornot_will_be_overriden_file.txt
+
 
 apt install silversearcher-ag
 
@@ -35,6 +35,12 @@ root@FjypPU9EfdoF:~# echo "Today is $date"
 Today is
 root@FjypPU9EfdoF:~# echo "Today is $(date)"
 Today is Sat Apr 24 16:43:24 UTC 2021
+
+cat 1000_lines.txt | sort -uR | head/tail -n 69 | wc
+
+root@stfu:~# cat 1000_lines.txt | tail -n 100 | wc
+    100     100    1410
+
 
 ctrl+alt+,
 
