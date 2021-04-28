@@ -14,6 +14,9 @@ watch cat <filename>/*
 
 df -Th /dev/vda1
 
+at --help
+
+echo Drop_Nuke_On_My_College.sh | at now + 69 minute
 
 gdisk -l /dev/vda
 
@@ -30,13 +33,13 @@ sudo -s <foo.txt
 
 nohup --help
 
+cat 1000_lines.txt | sort -uR | head/tail -n 69 | wc
 
 root@FjypPU9EfdoF:~# echo "Today is $date"
 Today is
 root@FjypPU9EfdoF:~# echo "Today is $(date)"
 Today is Sat Apr 24 16:43:24 UTC 2021
 
-cat 1000_lines.txt | sort -uR | head/tail -n 69 | wc
 
 root@stfu:~# cat 1000_lines.txt | tail -n 100 | wc
     100     100    1410
