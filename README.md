@@ -51,4 +51,6 @@ pv -t
 
 watch --help
 
+go env -w GO111MODULE=auto
+
 ```
