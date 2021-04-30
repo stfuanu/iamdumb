@@ -4,6 +4,8 @@
 
 lscpu
 
+ps fauxww
+
 cat /proc/cpuinfo | grep processor
 
 free -h
