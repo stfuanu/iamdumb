@@ -16,7 +16,7 @@ df -Th /dev/vda1
 
 at --help
 
-echo Drop_Nuke_On_My_College.sh | at now + 69 minute
+bash Drop_Nuke_On_My_College.sh | at now + 69 minute
 
 gdisk -l /dev/vda
 
