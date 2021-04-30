@@ -53,4 +53,6 @@ watch --help
 
 go env -w GO111MODULE=auto
 
+service cron reload
+
 ```
