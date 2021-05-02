@@ -24,6 +24,7 @@ gdisk -l /dev/vda
 
 echo "some shit here" >| existornot_will_be_overriden_file.txt
 
+cat messedupstuff.txt | column -t -s $'\t'
 
 apt install silversearcher-ag
 
