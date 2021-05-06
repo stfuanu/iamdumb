@@ -22,6 +22,8 @@ bash Drop_Nuke_On_My_College.sh | at now + 69 minute
 
 gdisk -l /dev/vda
 
+netstat -ntlp
+
 echo "some shit here" >| existornot_will_be_overriden_file.txt
 
 cat messedupstuff.txt | column -t -s $'\t'
