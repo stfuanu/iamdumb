@@ -16,6 +16,8 @@ watch cat <filename>/*
 
 df -Th /dev/vda1
 
+service tor reload && curl -socks5 127.0.0.1:9050 http://checkip.amazonaws.com/
+
 at --help
 
 lsof -t -i:<port>
