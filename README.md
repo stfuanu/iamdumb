@@ -20,6 +20,8 @@ at --help
 
 lsof -t -i:<port>
 
+kill -9 $(lsof -t -i:<port>)
+
 bash Drop_Nuke_On_My_College.sh | at now + 69 minute
 
 gdisk -l /dev/vda
