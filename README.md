@@ -30,6 +30,8 @@ gdisk -l /dev/vda
 
 netstat -ntlp
 
+is:issue commenter:<GITHUB_USERNAME>
+
 echo "some shit here" >| existornot_will_be_overriden_file.txt
 
 cat messedupstuff.txt | column -t -s $'\t'
