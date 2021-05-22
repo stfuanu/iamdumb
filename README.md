@@ -32,6 +32,8 @@ gdisk -l /dev/vda
 
 netstat -ntlp
 
+tr '[:upper:]' '[:lower:]'
+
 is:issue commenter:<GITHUB_USERNAME>
 
 echo "some shit here" >| existornot_will_be_overriden_file.txt
