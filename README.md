@@ -32,6 +32,7 @@ gdisk -l /dev/vda
 
 netstat -ntlp
 
+
 tr '[:upper:]' '[:lower:]'
 
 is:issue commenter:<GITHUB_USERNAME>
@@ -72,4 +73,12 @@ go env -w GO111MODULE=auto
 
 service cron reload
 
+```
+
+```bash
+foo()
+{
+    echo "Hello World!"
+}
+export -f foo
 ```
