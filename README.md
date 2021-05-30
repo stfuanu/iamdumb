@@ -80,5 +80,5 @@ foo()
 {
     echo "Hello World!"
 }
-export -f foo
+export -f foo   # export ~/.bashrc functions to scripts
 ```
