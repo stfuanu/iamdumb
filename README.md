@@ -47,6 +47,8 @@ https://github.com/github/linguist/blob/master/lib/linguist/languages.yml
 
 cat commands.txt | bash
 
+sed -e "s/^M//" filledwithbinaryctrlMcrap.txt > withoutcrap.txt
+
 sudo -s <foo.txt
 
 nohup --help
