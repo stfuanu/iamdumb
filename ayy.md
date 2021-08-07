@@ -1,0 +1,2 @@
+- [Learn X in Y minutes](https://learnxinyminutes.com/)
+- [DevHints.io](https://devhints.io/)
