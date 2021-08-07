@@ -85,4 +85,7 @@ foo()
     echo "Hello World!"
 }
 export -f foo   # export ~/.bashrc functions to scripts
+
+yes | /your/command # (Answer yes in a bash script)
+
 ```
