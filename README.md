@@ -14,6 +14,8 @@ echo "SOOO_MUCH_DATAAAAA" | ssh root@404.404.404.404 "cat - | tee -a ~/remote_fi
 
 tail -f <filename>/*
 
+cp {file1,file2,otherfile{1,2},otherrandomfile21} FOLDER_NAME/
+
 watch -n 0.1 "netstat -an | grep -E ':80|:8080'"
 
 watch cat <filename>/*
