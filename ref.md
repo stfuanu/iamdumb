@@ -6,3 +6,5 @@ https://stackoverflow.com/questions/17099860/why-cant-you-use-cat-to-read-a-file
 https://stackoverflow.com/questions/57181863/create-html-page-from-within-bash-script
 
 https://superuser.com/questions/1323645/unable-to-change-file-permissions-on-ubuntu-bash-for-windows-10
+
+https://www.golangprograms.com/how-to-use-function-from-another-file-golang.html
