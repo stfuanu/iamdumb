@@ -16,6 +16,8 @@ lscpu
 
 ps fauxww
 
+shopt -s expand_aliases
+
 cat /proc/cpuinfo | grep processor
 
 free -h
