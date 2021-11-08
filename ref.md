@@ -8,3 +8,5 @@ https://stackoverflow.com/questions/57181863/create-html-page-from-within-bash-s
 https://superuser.com/questions/1323645/unable-to-change-file-permissions-on-ubuntu-bash-for-windows-10
 
 https://www.golangprograms.com/how-to-use-function-from-another-file-golang.html
+
+https://www.inmotionhosting.com/support/website/speed-up-grep-searches-with-lc-all/
