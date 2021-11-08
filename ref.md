@@ -12,3 +12,5 @@ https://www.golangprograms.com/how-to-use-function-from-another-file-golang.html
 https://www.inmotionhosting.com/support/website/speed-up-grep-searches-with-lc-all/
 
 https://twitter.com/codecancare/status/1432427343725961217
+
+https://unix.stackexchange.com/questions/87745/what-does-lc-all-c-do
