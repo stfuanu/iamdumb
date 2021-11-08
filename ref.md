@@ -10,3 +10,5 @@ https://superuser.com/questions/1323645/unable-to-change-file-permissions-on-ubu
 https://www.golangprograms.com/how-to-use-function-from-another-file-golang.html
 
 https://www.inmotionhosting.com/support/website/speed-up-grep-searches-with-lc-all/
+
+https://twitter.com/codecancare/status/1432427343725961217
