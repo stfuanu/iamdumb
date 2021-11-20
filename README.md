@@ -16,9 +16,6 @@ lscpu
 
 ps fauxww
 
-pidof firefox
-kill -9 $(pidof firefox)
-
 shopt -s expand_aliases
 
 cat /proc/cpuinfo | grep processor
@@ -93,6 +90,11 @@ watch --help
 go env -w GO111MODULE=auto
 
 service cron reload
+
+pidof firefox
+kill -9 $(pidof firefox)
+killall -9 firefox
+killall -u stfuname
 
 ```
 
