@@ -17,6 +17,7 @@ lscpu
 ps fauxww
 
 pidof firefox
+kill -9 $(pidof firefox)
 
 shopt -s expand_aliases
 
