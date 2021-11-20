@@ -16,6 +16,8 @@ lscpu
 
 ps fauxww
 
+pidof firefox
+
 shopt -s expand_aliases
 
 cat /proc/cpuinfo | grep processor
