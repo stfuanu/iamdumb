@@ -13,6 +13,8 @@ cat /proc/cpuinfo | grep processor
 
 free -h
 
+git ls-files
+
 echo "SOOO_MUCH_DATAAAAA" | ssh root@404.404.404.404 "cat - | tee -a ~/remote_file.txt "
 
 tail -f <filename>/*
