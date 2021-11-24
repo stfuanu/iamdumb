@@ -104,6 +104,15 @@ yes | /your/command # (Answer yes in a bash script)
 ```bash
 # Aliases :
 
+alias clsram='echo 3 > /proc/sys/vm/drop_caches &&  swapoff -a &&  swapon -a'
+alias ports='netstat -plant'
+alias noc="sed 's/\x1B\[[0-9;]\{1,\}[A-Za-z]//g'"
+alias sbash="source ~/.bashrc"
+alias size='du -shc'
+alias tim='echo $(date +%d_%m_%Y-%H:%M:%S.%N)'
+
+
 alias zcname="zdns CNAME --name-servers 8.8.8.8,8.8.4.4 -threads 50 -retries 2 | jq -r '.data.answers[] | [.name,.type,.answer] | @tsv' 2> /dev/null"
 alias zstatus="zdns A --name-servers 8.8.8.8,8.8.4.4 -threads 50 -retries 2 | jq -r '[.name ,.status] | @tsv' 2> /dev/null"
+
 ```
