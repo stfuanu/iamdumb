@@ -1,15 +1,6 @@
 # iamdumb
 
 
-
-```bash
-# Aliases :
-
-alias zcname="zdns CNAME --name-servers 8.8.8.8,8.8.4.4 -threads 50 -retries 2 | jq -r '.data.answers[] | [.name,.type,.answer] | @tsv' 2> /dev/null"
-alias zstatus="zdns A --name-servers 8.8.8.8,8.8.4.4 -threads 50 -retries 2 | jq -r '[.name ,.status] | @tsv' 2> /dev/null"
-```
-
-
 ```console
 
 lscpu
@@ -110,4 +101,9 @@ yes | /your/command # (Answer yes in a bash script)
 
 ```
 
+```bash
+# Aliases :
 
+alias zcname="zdns CNAME --name-servers 8.8.8.8,8.8.4.4 -threads 50 -retries 2 | jq -r '.data.answers[] | [.name,.type,.answer] | @tsv' 2> /dev/null"
+alias zstatus="zdns A --name-servers 8.8.8.8,8.8.4.4 -threads 50 -retries 2 | jq -r '[.name ,.status] | @tsv' 2> /dev/null"
+```
