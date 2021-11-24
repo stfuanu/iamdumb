@@ -48,6 +48,7 @@ gdisk -l /dev/vda
 
 netstat -ntlp
 
+git submodule add <PvtGitUrl> <path/name>
 
 tr '[:upper:]' '[:lower:]'
 
