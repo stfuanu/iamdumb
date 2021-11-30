@@ -1,0 +1,22 @@
+
+https://www.youtube.com/watch?v=eazz-Je4HAA
+https://www.digitalocean.com/community/tutorials/how-to-install-and-manage-rabbitmq
+https://stackoverflow.com/questions/23669780/rabbitmq-3-3-1-can-not-login-with-guest-guest
+
+---->
+rabbitmq-plugins enable rabbitmq_management
+
+
+
+
+---->
+Add a new/fresh user, say user test and password test:
+
+rabbitmqctl add_user test test
+Give administrative access to the new user:
+
+rabbitmqctl set_user_tags test administrator
+Set permission to newly created user:
+
+rabbitmqctl set_permissions -p / test ".*" ".*" ".*"
+
