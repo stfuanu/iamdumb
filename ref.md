@@ -18,3 +18,6 @@ https://unix.stackexchange.com/questions/87745/what-does-lc-all-c-do
 https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-18-04
 
 https://stackoverflow.com/questions/33851692/golang-bad-file-descriptor#answer-33852107
+
+
+https://www.microsoftazuresponsorships.com/
