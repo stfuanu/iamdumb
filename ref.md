@@ -19,5 +19,6 @@ https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu
 
 https://stackoverflow.com/questions/33851692/golang-bad-file-descriptor#answer-33852107
 
-
 https://www.microsoftazuresponsorships.com/
+
+https://www.markdownguide.org/basic-syntax/
