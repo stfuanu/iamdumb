@@ -22,3 +22,5 @@ https://stackoverflow.com/questions/33851692/golang-bad-file-descriptor#answer-3
 https://www.microsoftazuresponsorships.com/
 
 https://www.markdownguide.org/basic-syntax/
+
+https://superuser.com/questions/443997/how-can-i-deactivate-the-gnome-desktop-of-my-ubuntu-server
