@@ -55,6 +55,8 @@ cat messedupstuff.txt | column -t -s $'\t'
 
 apt install silversearcher-ag
 
+apt-get install moreutils
+
 https://github.com/github/linguist/blob/master/lib/linguist/languages.yml
 
 cat commands.txt | bash
