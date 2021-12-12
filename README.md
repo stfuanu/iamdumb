@@ -35,6 +35,8 @@ at --help
 
 lsof -t -i:<port>
 
+tail -n 100 cron.log | sponge cron.log
+
 kill -9 $(lsof -t -i:<port>)
 
 bash Drop_Nuke_On_My_College.sh | at now + 69 minute
