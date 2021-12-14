@@ -28,3 +28,5 @@ https://superuser.com/questions/443997/how-can-i-deactivate-the-gnome-desktop-of
 https://stackoverflow.com/a/16957078/14088848
 
 https://stackoverflow.com/questions/10376206/what-is-the-preferred-bash-shebang
+
+https://unix.stackexchange.com/questions/145402/regex-alternation-or-operator-foobar-in-gnu-or-bsd-sed
