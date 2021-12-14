@@ -26,3 +26,5 @@ https://www.markdownguide.org/basic-syntax/
 https://superuser.com/questions/443997/how-can-i-deactivate-the-gnome-desktop-of-my-ubuntu-server
 
 https://stackoverflow.com/a/16957078/14088848
+
+https://stackoverflow.com/questions/10376206/what-is-the-preferred-bash-shebang
