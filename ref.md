@@ -30,3 +30,5 @@ https://stackoverflow.com/a/16957078/14088848
 https://stackoverflow.com/questions/10376206/what-is-the-preferred-bash-shebang
 
 https://unix.stackexchange.com/questions/145402/regex-alternation-or-operator-foobar-in-gnu-or-bsd-sed
+
+https://helpdeskgeek.com/windows-10/install-and-setup-a-website-in-iis-on-windows-10/
