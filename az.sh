@@ -85,3 +85,5 @@ az group delete --name MyResourceGroup
 az network dns record-set cname create
 az network dns record-set cname list -g MyResourceGroup -z www.mysite.com
 
+az rest --method POST --header "Accept=application/json" -u https://management.azure.com/providers/Microsoft.Network/checkTrafficManagerNameAvailability?api-version=2018-04-01 --body '{"name":"s00149tmpdvrpt","type":"microsoft.network/trafficmanagerprofiles"}'
+
