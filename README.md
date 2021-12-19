@@ -105,6 +105,13 @@ curl -LOs https://archive.org/download/ia-pex/ia && chmod +x ia && mv ia /usr/bi
 ```
 
 ```bash
+# Storing a json object as Variable to use it later when multiple levels deep
+echo "google.com" | zdns NS --name-servers 8.8.8.8:53,8.8.4.4:53 -threads 20 -retries 2 | \
+jq -r ' .status as $stat | .data | select(.answers[0].type=="NS") | .answers[]  | [.name,$stat,.type,.answer]| @tsv '
+```
+
+
+```bash
 foo()
 {
     echo "Hello World!"
@@ -114,6 +121,7 @@ export -f foo   # export ~/.bashrc functions to scripts
 yes | /your/command # (Answer yes in a bash script)
 
 ```
+
 
 ```bash
 # Aliases :
