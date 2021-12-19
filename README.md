@@ -142,3 +142,11 @@ alias zcname="zdns CNAME --name-servers 8.8.8.8,8.8.4.4 -threads 50 -retries 2 |
 alias zstatus="zdns A --name-servers 8.8.8.8,8.8.4.4 -threads 50 -retries 2 | jq -r '[.name ,.status] | @tsv' 2> /dev/null"
 
 ```
+
+```bash
+tr '[:upper:]' '[:lower:]' < input.txt > output.txt
+awk '{ print tolower($0) }' input.txt > output.txt
+awk '{ print toupper($0) }' input.txt > output.txt
+sed -e 's/\(.*\)/\L\1/' input.txt > output.txt
+
+```
