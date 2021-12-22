@@ -51,6 +51,10 @@ git submodule add <PvtGitUrl> <path/name>
 
 tr '[:upper:]' '[:lower:]'
 
+shuf -i 1-1000
+split -n l/<No.of_Files> 1000_lines.txt (3 Files With 333 Lines each)
+split -l <No.Of_Lines> 1000_lines.txt
+
 is:issue commenter:<GITHUB_USERNAME>
 
 echo "some shit here" >| existornot_will_be_overriden_file.txt
