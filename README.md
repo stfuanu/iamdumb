@@ -51,10 +51,6 @@ git submodule add <PvtGitUrl> <path/name>
 
 tr '[:upper:]' '[:lower:]'
 
-shuf -i 1-1000
-split -n l/<No.of_Files> 1000_lines.txt (3 Files With 333 Lines each)
-split -l <No.Of_Lines> 1000_lines.txt
-
 is:issue commenter:<GITHUB_USERNAME>
 
 echo "some shit here" >| existornot_will_be_overriden_file.txt
@@ -154,5 +150,9 @@ tr '[:upper:]' '[:lower:]' < input.txt > output.txt
 awk '{ print tolower($0) }' input.txt > output.txt
 awk '{ print toupper($0) }' input.txt > output.txt
 sed -e 's/\(.*\)/\L\1/' input.txt > output.txt
+
+shuf -i 1-1000
+split -n l/<No.of_Files>[3] 1000_lines.txt #("3" Files With 333 Lines each)
+split -l <No.Of_Lines>[150] 1000_lines.txt #(6 Files with 150 Lines each + 1 file of 100 Lines)
 
 ```
