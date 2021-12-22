@@ -7,6 +7,8 @@ lscpu
 
 ps fauxww
 
+ps aux | grep -ie something | awk '{print $2}' | xargs kill -9
+
 shopt -s expand_aliases
 
 cat /proc/cpuinfo | grep processor
