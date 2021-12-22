@@ -31,4 +31,6 @@ https://stackoverflow.com/questions/10376206/what-is-the-preferred-bash-shebang
 
 https://unix.stackexchange.com/questions/145402/regex-alternation-or-operator-foobar-in-gnu-or-bsd-sed
 
+http://mywiki.wooledge.org/ProcessManagement
+
 https://helpdeskgeek.com/windows-10/install-and-setup-a-website-in-iis-on-windows-10/
