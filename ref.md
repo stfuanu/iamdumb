@@ -34,3 +34,5 @@ https://unix.stackexchange.com/questions/145402/regex-alternation-or-operator-fo
 http://mywiki.wooledge.org/ProcessManagement
 
 https://helpdeskgeek.com/windows-10/install-and-setup-a-website-in-iis-on-windows-10/
+
+https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-server-blocks-virtual-hosts-on-ubuntu-16-04
