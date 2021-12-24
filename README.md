@@ -126,6 +126,13 @@ export -f foo   # export ~/.bashrc functions to scripts
 
 yes | /your/command # (Answer yes in a bash script)
 
+gpush(){
+	[[ ! -f ".git/config"  ]] echo -e "$rred Not Found : .git/config $nc" && return 1
+	[[ "$1" == "-m" && -z "$2" ]] && git commit -m "$2"
+	name=$(cat .git/config | grep "url =" | awk -F "github.com/" '{print$2}')
+	git push https://"$gitpush"@github.com/"$name"
+}
+
 ```
 
 
