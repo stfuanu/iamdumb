@@ -36,3 +36,5 @@ http://mywiki.wooledge.org/ProcessManagement
 https://helpdeskgeek.com/windows-10/install-and-setup-a-website-in-iis-on-windows-10/
 
 https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-server-blocks-virtual-hosts-on-ubuntu-16-04
+
+https://stackoverflow.com/questions/305035/how-to-use-ssh-to-run-a-local-shell-script-on-a-remote-machine
