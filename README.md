@@ -58,7 +58,8 @@ ssh root@MachineB 'echo "rootpass" | sudo -Sv && bash -s' < local_script.sh
 ssh root@MachineB ARG1="arg1" ARG2="arg2" 'bash -s' < local_script.sh
 echo "password" | ssh user@server 'sudo --prompt="" --stdin bash -s' < local.sh
 
-StrictHostKeyChecking=accept-new (canbeaddedto:~/.ssh/config)
+StrictHostKeyChecking=accept-new (canbeaddedto:~/.ssh/config_butdon't)
+ssh -o StrictHostKeyChecking=(accept-new/no) user@host
 
 echo "some stuff here" >| existornot_will_be_overriden_file.txt
 
