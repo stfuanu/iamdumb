@@ -58,8 +58,9 @@ ssh root@MachineB 'echo "rootpass" | sudo -Sv && bash -s' < local_script.sh
 ssh root@MachineB ARG1="arg1" ARG2="arg2" 'bash -s' < local_script.sh
 echo "password" | ssh user@server 'sudo --prompt="" --stdin bash -s' < local.sh
 
+StrictHostKeyChecking=accept-new (canbeaddedto:~/.ssh/config)
 
-echo "some shit here" >| existornot_will_be_overriden_file.txt
+echo "some stuff here" >| existornot_will_be_overriden_file.txt
 
 cat messedupstuff.txt | column -t -s $'\t'
 
