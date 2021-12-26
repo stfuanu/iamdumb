@@ -46,6 +46,8 @@ kill -9 $(lsof -t -i:<port>)
 
 bash Drop_Nuke_On_My_College.sh | at now + 69 minute
 
+echo "Show this forward and in reverse" | pee cat rev
+
 gdisk -l /dev/vda
 
 netstat -ntlp
