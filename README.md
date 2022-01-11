@@ -7,7 +7,7 @@ lscpu
 
 ps fauxww
 
-echo "07_01_2022-01:16:12" | sed -E 's/_/\//g ; s/-/ /g' | date +%s
+date -d "$(echo 07_01_2022-01:16:12 | sed -E 's/_/\//g ; s/-/ /g')" +"%s"
 
 ps aux | grep -ie something | awk '{print $2}' | xargs kill -9
 
