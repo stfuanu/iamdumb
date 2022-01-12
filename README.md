@@ -9,6 +9,8 @@ ps fauxww
 
 date -d "$(echo 07_01_2022-01:16:12 | sed -E 's/_/\//g ; s/-/ /g')" +"%s"
 
+echo stfuanu | sed -E 's/.*/prefix-&-suffix/'
+
 ps aux | grep -ie something | awk '{print $2}' | xargs kill -9
 
 shopt -s expand_aliases
