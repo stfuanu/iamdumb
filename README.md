@@ -134,6 +134,8 @@ dig @8.8.8.8 +nocmd wfmnaptnpc.starbucks.com cname +noall +answer
 # Storing a json object as Variable to use it later when multiple levels deep
 echo "google.com" | zdns NS --name-servers 8.8.8.8:53,8.8.4.4:53 -threads 20 -retries 2 | \
 jq -r ' .status as $stat | .data | select(.answers[0].type=="NS") | .answers[]  | [.name,$stat,.type,.answer]| @tsv '
+jq -n '["a","b","c"] | to_entries'
+
 ```
 
 
