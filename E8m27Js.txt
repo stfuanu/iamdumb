@@ -2,3 +2,4 @@ multi-party computation
 zero-knowledge proof
 np complete problems
 functional encryption
+first principle
