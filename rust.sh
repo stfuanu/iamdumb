@@ -3,5 +3,6 @@
 # https://play.rust-lang.org/
 
 
-# some dependecies :
-# clap , thiserror , anyhow , 
+# some dependecies (idk):
+# indicatif
+# clap , thiserror , anyhow , rayon/tokyo 
