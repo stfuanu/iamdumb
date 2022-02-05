@@ -4,3 +4,4 @@ np complete problems
 functional encryption
 first principle
 typestate - rust
+Command and Control - C2
