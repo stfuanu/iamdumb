@@ -3,3 +3,4 @@ zero-knowledge proof
 np complete problems
 functional encryption
 first principle
+typestate - rust
