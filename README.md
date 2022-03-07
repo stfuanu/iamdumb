@@ -88,6 +88,8 @@ sed -e "s/^M//" filledwithbinaryctrlMcrap.txt > withoutcrap.txt
 
 sudo -s <foo.txt
 
+while read line; do tar -xzf "${line}"; done< <(ls | grep -P '\.tar\.gz$')
+
 nohup --help
 
 cat 1000_lines.txt | sort -uR | head/tail -n 69 | wc
