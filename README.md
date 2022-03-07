@@ -117,6 +117,7 @@ killall -u stfuname
 
 htop
 TAB+RIGHT_ARROW (to scroll)
+ALT+arrow (edit long lines on cli)
 
 curl -sS -k https://isitonaws.com/discover?name=aws.data.domain.com > aws.html
 cat aws.html | grep -oP "Region: </td><td align=\"left\">[-a-z0-9]{3,30}" | awk -F '>' '{print$NF}'
