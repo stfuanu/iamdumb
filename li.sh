@@ -124,3 +124,8 @@ echo 5^23 | bc
 echo 5-3 | bc
 
 source .bashrc
+
+
+uname -m
+dpkg --print-architecture
+
