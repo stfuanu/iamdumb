@@ -62,6 +62,8 @@ tr '[:upper:]' '[:lower:]'
 
 is:issue commenter:<GITHUB_USERNAME>
 
+sudo !!
+
 ssh stfuanu@120.0.0.1 'bash -s' < testscript.sh
 ssh root@MachineB 'echo "rootpass" | sudo -Sv && bash -s' < local_script.sh
 ssh root@MachineB ARG1="arg1" ARG2="arg2" 'bash -s' < local_script.sh
