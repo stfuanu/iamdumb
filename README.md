@@ -104,6 +104,8 @@ root@stfu:~# cat 1000_lines.txt | tail -n 100 | wc
     100     100    1410
 
 
+!!
+
 ctrl+alt+,
 
 pv -t
