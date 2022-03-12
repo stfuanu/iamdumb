@@ -134,7 +134,8 @@ curl -LOs https://archive.org/download/ia-pex/ia && chmod +x ia && mv ia /usr/bi
 dig +trace @8.8.8.8 wfmnaptnpc.starbucks.com
 dig @8.8.8.8 +nocmd wfmnaptnpc.starbucks.com cname +noall +answer
 
-
+apt-get install dsh
+dsh –aM –c uptime
 ```
 
 ```bash
