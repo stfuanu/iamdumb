@@ -5,6 +5,10 @@
 
 lscpu
 
+\time -v
+
+/usr/bin/time -f "mem=%K RSS=%M elapsed=%E cpu.sys=%S user=%U"
+
 ps fauxww
 
 date -d "$(echo 07_01_2022-01:16:12 | sed -E 's/_/\//g ; s/-/ /g')" +"%s"
