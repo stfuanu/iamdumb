@@ -96,6 +96,8 @@ sed -e "s/^M//" filledwithbinaryctrlMcrap.txt > withoutcrap.txt
 
 sudo -s <foo.txt
 
+systemctl reset-failed
+
 while read line; do tar -xzf "${line}"; done< <(ls | grep -P '\.tar\.gz$')
 
 nohup --help
